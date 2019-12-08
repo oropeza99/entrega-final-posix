@@ -1,0 +1,82 @@
+# entrega-final-posix
+#!/bin/bash
+clear
+
+
+      echo "~~~~~~~~~~~~~~~~~~~~~"
+        echo "    BOGGLE  GAME    "
+        echo "~~~~~~~~~~~~~~~~~~~~~"
+
+
+
+    echo " 1) Nivel 1 "
+    echo " 2) Nivel 2 "
+    echo " 3) Nivel 3 "
+    echo " 4) Nivel 4 "
+    echo " 5) Nivel 5 "
+    echo " 6) Nivel 6 "
+    echo " 7) Nivel 7 "
+    echo " 8) Nivel 8 "
+
+
+echo  "Cuando ingreses el nivel  te van a aparecer letras revueltas y ahi  encontraras la respuesta "
+
+echo -n  "Escribe un numero: "
+
+read numero
+
+case ${numero} in
+1)
+./nivel1.sh
+esac
+
+case ${numero} in
+2)
+./nivel12.sh
+esac
+
+
+case ${numero} in
+3)
+./nivel3.sh
+esac
+
+
+
+case ${numero} in
+4)
+./nivel4.sh
+esac
+
+
+
+case ${numero} in
+5)
+./nivel5.sh
+esac
+
+
+
+
+case ${numero} in
+6)
+./nivel6.sh
+esac
+
+case ${numero} in
+7)
+./nivel7.sh
+esac
+
+
+case ${numero} in
+8)
+./nivel8.sh
+esac
+
+
+
+
+
+
+
