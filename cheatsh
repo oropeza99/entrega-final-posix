@@ -1,0 +1,178 @@
+# cheat
+ # cheat sheets
+#!/bin/bash
+clear
+                echo "~~~~~~~~~~~~~~~~~~~~~"
+                 echo "   CHEAT  SHEETS "
+                  echo "~~~~~~~~~~~~~~~~~~~~~"
+
+
+
+
+ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+ echo " 20 most used commands in linux  "
+ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+
+echo "1) ls               | "
+echo "2) cd               | "
+echo "3) rmdir            | "
+echo "4) rm               | "
+echo "5) cp               | "
+echo "~~~~~~~~~~~~~~~~~~~~~"
+echo "6) mv               | "
+echo "7) clear            | "
+echo "8) cat              | "
+echo "9) head             | "
+echo "10)tail             | "
+echo "~~~~~~~~~~~~~~~~~~~~ "
+echo "11) pwd             | "
+echo "12) touch           | "
+echo "13) wget            | "
+echo "14) ps              | "
+echo "15) top             | "
+
+echo "~~~~~~~~~~~~~~~~~~~~~"
+echo "16) man             |  "
+echo "17) whatis          |  "
+echo "18) unzip           |   "
+echo "19) gzip            |  "
+echo "20) drush           |  "
+
+echo "~~~~~~~~~~~~~~~~~~~~~"
+
+
+echo -n "Escribe un numero: "
+
+read numero
+
+
+
+case ${numero} in
+1)
+./cheatls.sh
+esac
+
+case ${numero} in
+2)
+./cheatcd.ls
+esac
+
+case ${numero} in
+3)
+./cheatrmdir.sh
+esac
+
+case ${numero} in
+4)
+./cheatrm.sh
+esac
+
+case ${numero} in
+5)
+./cheatcp.sh
+esac
+
+case ${numero} in
+6)
+./cheatmv.sh
+esac
+
+case ${numero} in
+7)
+./cheatclear.sh
+esac
+
+case ${numero} in
+8)
+./cheatcat.sh
+esac
+
+
+case ${numero} in
+9)
+./cheathead.sh
+esac
+
+case ${numero} in
+10)
+./cheattail.sh
+esac
+
+
+case ${numero} in
+11)
+./cheatpwd.sh
+esac
+
+case ${numero} in
+12)
+./cheattouch.sh
+esac
+
+case ${numero} in
+13)
+./cheatwget.sh
+esac
+
+case ${numero} in
+14)
+./cheatps.sh
+esac
+
+case ${numero} in
+15)
+./cheatop.sh
+esac
+
+case ${numero} in
+16)
+./cheatman.sh
+esac
+
+case ${numero} in
+17)
+./cheatwhatis.sh
+esac
+
+case ${numero} in
+18)
+./cheatunzip.sh
+esac
+
+case ${numero} in
+19)
+./cheatgzip.sh
+esac
+
+ case ${numero} in
+20)
+./cheatdrush.sh
+esac
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
